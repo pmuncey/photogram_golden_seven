@@ -1,0 +1,11 @@
+<h1>Photo Details</h1>
+
+<img src="<%= @photo.source %>" width="720">
+
+<p> <%= @photo.caption %> </p>
+
+<p>
+  <a href="/photos">Back</a>
+  <a href="/photos/:old_row_id/edit">Edit</a>
+  <a href="photos/:old_row_id/delete">Delete</a>
+</p>
